@@ -17,3 +17,7 @@ classification=df.loc[:,["classification"]] # or y=df["classification"]
 feature_train, classification_train, feature_test, classification_test=train_test_split(
     feature_matrix, classification, test_size=0.30, random_state=42)
 
+# Answer the questions-------------------------------------------------------------------------
+# Model has to use other data to test other using training data. Using training and testing on the same data would cause the model overfitted and unable to generate new data.
+# Using testing dataset to test the performance on new data.
+
